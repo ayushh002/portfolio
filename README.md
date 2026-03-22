@@ -1,7 +1,5 @@
 # Welcome to my Portfolio Project project
 
-# Portfolio Website Documentation
-
 A modern, responsive portfolio website built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Features a dynamic theme toggle (light/dark) using React Context API, smooth animations, and a clean component-based architecture.
 
 ---
