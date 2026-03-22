@@ -1,6 +1,10 @@
 # Welcome to my Portfolio Project project
 
-A modern, responsive portfolio website built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Features a dynamic theme toggle (light/dark) using React Context API, smooth animations, and a clean component-based architecture.
+This portfolio website is a modern, responsive single‑page application built with React, TypeScript, Vite, Tailwind CSS, and Framer Motion. It showcases my skills, projects, certifications, and achievements in a clean, interactive layout. The design features a light/dark theme toggle that persists using localStorage, smooth animations, an interactive background with animated blobs, and a scroll progress indicator. All components are reusable, typed with TypeScript, and follow a component‑based architecture.
+
+The theme system is implemented with React’s Context API and CSS custom properties. The ThemeProvider manages the theme state and applies a dark class to the <html> element when dark mode is active. Tailwind CSS is configured with darkMode: "class", so all utility classes automatically respond to the theme change. The color scheme is defined using HSL variables in the global CSS, making it easy to customize. The user’s preference is saved in localStorage, so the chosen theme persists across page reloads.
+
+Key sections include a Hero area with a typing animation, an About section, a Skills grid, a Projects gallery with links to live demos and code, and a Contact section with social links. The website is fully responsive, optimized for performance, and can be deployed to any static hosting service like Vercel, Netlify, or GitHub Pages. Environment variables are supported for sensitive data, and the .gitignore is set up to exclude .env files from version control.
 ---
 
 ## Tech Stack
@@ -13,39 +17,6 @@ A modern, responsive portfolio website built with **React**, **TypeScript**, **T
 - **React Context API** – Theme state management
 - **ESLint / Prettier** – Code quality (optional)
 
----
-
-## Project Structure
-portfolio/
-├── public/ # Static assets
-├── src/
-│ ├── assets/ # Images, fonts, etc.
-│ ├── components/ # Reusable React components
-│ │ ├── Navbar.tsx
-│ │ ├── Hero.tsx
-│ │ ├── About.tsx
-│ │ ├── Skills.tsx
-│ │ ├── Projects.tsx
-│ │ ├── Certifications.tsx
-│ │ ├── Achievements.tsx
-│ │ ├── Contact.tsx
-│ │ ├── Footer.tsx
-│ │ ├── ScrollProgress.tsx
-│ │ └── InteractiveBackground.tsx
-│ ├── context/ # Context providers
-│ │ └── ThemeContext.tsx
-│ ├── App.tsx # Root component with ThemeProvider
-│ ├── main.tsx # Entry point
-│ ├── index.css # Global styles & Tailwind imports
-│ └── vite-env.d.ts # Vite type definitions
-├── tailwind.config.ts # Tailwind configuration
-├── tsconfig.json # TypeScript configuration
-├── vite.config.ts # Vite configuration
-├── package.json # Dependencies & scripts
-├── .gitignore # Ignored files (includes .env)
-└── README.md # This file
-
----
 
 ## Getting Started
 
