@@ -4,7 +4,6 @@ This portfolio website is a modern, responsive single‑page application built w
 
 The theme system is implemented with React’s Context API and CSS custom properties. The ThemeProvider manages the theme state and applies a dark class to the <html> element when dark mode is active. Tailwind CSS is configured with darkMode: "class", so all utility classes automatically respond to the theme change. The color scheme is defined using HSL variables in the global CSS, making it easy to customize. The user’s preference is saved in localStorage, so the chosen theme persists across page reloads.
 
-Key sections include a Hero area with a typing animation, an About section, a Skills grid, a Projects gallery with links to live demos and code, and a Contact section with social links. The website is fully responsive, optimized for performance, and can be deployed to any static hosting service like Vercel, Netlify, or GitHub Pages. Environment variables are supported for sensitive data, and the .gitignore is set up to exclude .env files from version control.
 ---
 
 ## Tech Stack
