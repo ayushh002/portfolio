@@ -1,27 +1,6 @@
 # Welcome to my Portfolio Project project
 
 A modern, responsive portfolio website built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Features a dynamic theme toggle (light/dark) using React Context API, smooth animations, and a clean component-based architecture.
-
----
-
-## Table of Contents
-
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Development Server](#running-the-development-server)
-  - [Building for Production](#building-for-production)
-- [Features](#features)
-- [Theme System](#theme-system)
-  - [How It Works](#how-it-works)
-  - [Adding New Theme Colors](#adding-new-theme-colors)
-- [Components](#components)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
-- [License](#license)
-
 ---
 
 ## Tech Stack
