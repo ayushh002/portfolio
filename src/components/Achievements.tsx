@@ -5,7 +5,7 @@ import SectionWrapper from "./SectionWrapper";
 const achievements = [
   {
     icon: Trophy,
-    title: "300+ Coding Problems Solved",
+    title: "400+ Coding Problems Solved",
     description: "Consistently solving problems across platforms to strengthen DSA fundamentals.",
     link: "https://codolio.com/profile/ayushh002",
   },
